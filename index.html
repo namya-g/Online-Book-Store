@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINE BOOK STORE</title>
+    <style>
+        :root{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .head{
+            display: flex;
+            background-color: #779ECB;
+            height: 12vh;
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+            align-items: center;
+        }
+        .logo{
+            width: 150px;
+            padding-top: 11px;
+        }
+        .logo img{
+            width:60%;
+        }
+        .menu{
+            background-color: #AEC6CF;
+            height: 8vh;
+            font-size: 30px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .title{
+            flex: 1;
+        }
+        .left{
+            width: 200px;
+            border: 1px solid black;
+        }
+        .left a{
+            text-decoration: none;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            font-size: 40px;
+        }
+        .right{
+            flex: 1;
+            border: 1px solid black;
+            padding: 20px;
+        }
+        .right iframe{
+            height: 100%;
+            width: 100%;
+            border: none;
+            
+        }
+        .main{
+            display: flex;
+            height: 500px;
+            background-color: #D4E5ED;
+        }
+        .menu a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+   <div class="head">
+    <div class="logo"><img src="Logo1.jpg" alt="Logo"></img></div>
+    <div class="title">ONLINE BOOK STORE</div>
+   </div>
+   <div class="menu">
+    <a href="home.html" target="content">HOME</a>
+    <a href="">LOGIN</a>
+    <a href="">REGISTERATION</a>
+    <a href="">CATALOGUE</a>
+    <a href="">CART</a>
+   </div>
+   <div class="main">
+   <div class="left">
+    <a href="CSE.html" target="content">CSE</a>
+    <a href="CSIT.html" target="content">CSIT</a>
+    <a href="ECE.html" target="content">ECE</a>
+    <a href="EEE.html" target="content">EEE</a>
+    <a href="ME.html" target="content">ME</a>
+   </div>
+   <div class="right">
+    <iframe src="home.html" name="content"></iframe>
+   </div>
+   </div>
+</body>
+</html>
